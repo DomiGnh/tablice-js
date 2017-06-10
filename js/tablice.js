@@ -36,6 +36,37 @@ imiona.forEach(function (element, i){
     console.log('element nr' + i + '=' + element);
 } );
 
+//join-pobiera wszytskie elelmty z tablicy i łaczy je
+
+console.log( imiona.join('-'));
+
+//sort-sortuje elemnty alfabetycznie
+
+console.log( imiona.sort);
+
+//reverse- odwraca znaki, napisze je od konca
+
+imiona.reverse();
+console.log(imiona);
+
+//concat-łączy tablice
+
+var imionaMeskie = ['robert', 'mariusz', 'olek'];
+
+var zbiorImion = imionaMeskie.concat(imiona);
+
+console.log(zbiorImion);
+
+console.log(Array.isArray(zbiorImion));//sprawdza czy to jet tablica
+
+console.log( zbiorImion.slice(2,5));
+
+zbiorImion.splice(2,3, "Julek", "krzys");
+
+console.log(zbiorImion);// startuje od 2, wycina 3 elementy i wstawai julka i krzysia
+
+//to string - cala tablice zamieni na stringi, i wyswietli po przrecinku
+
 
 
 
