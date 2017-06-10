@@ -30,7 +30,11 @@ for (var i=0; i < imiona.length; i++) {
     console.log(imiona[i]);
 }
 
+//petla po tablicy, nie trzeba definiowac staru i konca, tylko przelatuje po wszystkich elemntach
 
+imiona.forEach(function (element, i){
+    console.log('element nr' + i + '=' + element);
+} );
 
 
 
